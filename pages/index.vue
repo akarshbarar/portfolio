@@ -1,73 +1,45 @@
 <template>
   <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        protfolio
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
+   <p>Hi I am</p>
+   <span>Akarsh Barar</span>
+   
+ 
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+    head: {
+    title: 'Akarsh Barar | Developer',
+  },
+}
+
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Varela');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html, body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #161B33;
+
+}
+.container{
+  height: 100vh;
+  max-width: 80%;
+  margin-left: 25%;
+  margin-right: auto;
+}
+.container>p{
+  color:#5EF1CF;
+  font-size: 2vw;
+  font-weight: 500;
 }
 
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+.container>span{
+  color:#fff;
+  font-size: 5vw;
+  font-weight: 900;
 }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>
