@@ -1,6 +1,6 @@
 <template>
   <div class="sidebar__right">
-      <a href="mailto:barar.akasrh8@gmail.com">barar.akasrh8@gmail.com
+      <a href="mailto:barar.akarsh8@gmail.com">barar.akarsh8@gmail.com
 </a>
   </div>
 </template>
@@ -14,7 +14,7 @@ export default {
 <style>
 .sidebar__right{
     position: fixed;
-    top:50vh;
+    top:50%;
     right: 2%;
     z-index: 90;
      writing-mode: vertical-lr;
