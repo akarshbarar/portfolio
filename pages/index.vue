@@ -7,6 +7,36 @@
       I am Full Stack Softare Developer based in Faridabad,India. I am interested in building mobile apps and websites. I am also interested in open source contribution and teaching thats why I have a youtube channel were I teach how to make applications using Flutter. 
     </div>
     <button class="btn btn-5">Get In touch</button>
+
+    <!-- <div class="scroll-downs">
+      <div class="mousey">
+        <div class="scroller"></div>
+      </div>
+    </div> -->
+    <div class="aboutme" id="aboutme">
+      <h1><span>01.</span> About Me </h1>
+      <div class="aboutme__data">
+      <p>
+        Hi, I am Akarsh Barar, a Full Stack Software Developer in Faridabad India. I enjoy working on Mobile App developent alng with keen intrest in website developmet. I love to learn new technologies and platform. I love to work on <b>Open Spurce Projects</b>
+        .<br/>
+        I have done B.Tech in Computer Science. I also love teaching therefor I have a Youtube channel where I teach some random tech stuff like how to create mobile applications using Flutter and also some other programming stuffs. 
+ 
+<h3>Here are some technologies I have been working recently:</h3>
+<ul>
+  <li>NodeJs</li>
+ <li>VueJs</li>
+ <li>ReactJs</li>
+<li>JavaScript</li>
+
+<li>Flutter</li>
+
+<li>Android App Developement</li>
+
+</ul>
+ </p>
+ <img src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=635&q=80"/>
+ </div>
+   </div>
   </div>
 </template>
 
@@ -14,12 +44,20 @@
 export default {
     head: {
     title: 'Akarsh Barar | Developer',
+     link: [
+          { 
+             rel:"stylesheet", 
+            //  href:"https://www.w3schools.com/w3css/4/w3.css"
+          }
+        ]
   },
+  
 }
 
 </script>
 
 <style>
+
 @import url('https://fonts.googleapis.com/css?family=Varela');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 html, body {
@@ -115,4 +153,60 @@ html, body {
   text-decoration: none;
 }
 
+.scroll-downs {
+  position: absolute;
+  right: 50%;
+  left: 50%;
+  margin-top: 10%;  
+  width :34px;
+  height: 55px;
+}
+.mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: #fff;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
+}
+.aboutme{
+  margin-top: 15%;
+  width:50%;
+}
+.aboutme__data{
+  display:flex;
+  flex-direction:row;
+}
+
+.aboutme__data>img{
+  width:400px;
+  height:400px;
+  object-fit:contain;
+}
+.aboutme >h1>span{
+  color: #5EF1CF;
+}
+h1::after {
+    display: inline-block;
+    content: "";
+    border-top: .1rem solid lightgray;
+    width: 25%;
+    transform: translateY(0rem);
+}
 </style>
