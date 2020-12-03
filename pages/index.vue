@@ -16,71 +16,67 @@
     <div class="aboutme" id="aboutme">
       <h1><span>01.</span> About Me </h1>
       <div class="aboutme__data">
-      <p>
-        Hi, I am Akarsh Barar, a Full Stack Software Developer in Faridabad India. I enjoy working on Mobile App developent alng with keen intrest in website developmet. I love to learn new technologies and platform. I love to work on <b>Open Spurce Projects</b>
-        .<br/>
-        I have done B.Tech in Computer Science. I also love teaching therefor I have a Youtube channel where I teach some random tech stuff like how to create mobile applications using Flutter and also some other programming stuffs. 
- 
-<h3>Here are some technologies I have been working recently:</h3>
-<ul>
-  <li>NodeJs</li>
- <li>VueJs</li>
- <li>ReactJs</li>
-<li>JavaScript</li>
+            <div class="aboutme__innerdata">
+              <p>
+              Hi, I am Akarsh Barar, a Full Stack Software Developer in Faridabad India. I enjoy working on Mobile App developent alng with keen intrest in website developmet. I love to learn new technologies and platform. I love to work on <b>Open Source Projects</b>
+              .<br/>
+              I have done B.Tech in Computer Science. I also love teaching therefor I have a Youtube channel where I teach some random tech stuff like how to create mobile applications using Flutter and also some other programming stuffs. 
 
-<li>Flutter</li>
+              <h3>Here are some technologies I have been working recently:</h3>
+              <ul>
+                  <li>NodeJs</li>
+                  <li>VueJs</li>
+                  <li>ReactJs</li>
+                  <li>JavaScript</li>
+                  <li>Flutter</li>
+                  <li>Android App Developement</li>
 
-<li>Android App Developement</li>
-
-</ul>
- </p>
- <img src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=635&q=80"/>
- </div>
+              </ul>
+            </p>
+            </div>
+          <img src="../assets/image/myimage.jpg"/>
+      </div>
    </div>
   </div>
 </template>
 
 <script>
 export default {
-    head: {
-    title: 'Akarsh Barar | Developer',
-     link: [
-          { 
-             rel:"stylesheet", 
-            //  href:"https://www.w3schools.com/w3css/4/w3.css"
-          }
-        ]
+  head: {
+    title: "Akarsh Barar | Developer",
+    link: [
+      {
+        rel: "stylesheet",
+        //  href:"https://www.w3schools.com/w3css/4/w3.css"
+      },
+    ],
   },
-  
-}
-
+};
 </script>
 
 <style>
-
-@import url('https://fonts.googleapis.com/css?family=Varela');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-html, body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #161B33;
-  color:#fff;
-
+@import url("https://fonts.googleapis.com/css?family=Varela");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #161b33;
+  color: #fff;
 }
-.container{
+.container {
   height: 100vh;
   max-width: 80%;
   margin-left: 25%;
   margin-right: auto;
   margin-top: 10%;
 }
-.container>p{
-  color:#5EF1CF;
+.container > p {
+  color: #5ef1cf;
   font-size: 2vw;
   font-weight: 500;
 }
 
-.designation {  
-  
+.designation {
   line-height: 1.6;
   font-size: 2vw;
   font-weight: 500;
@@ -105,16 +101,15 @@ html, body {
     border-right: 2px solid #222;
   }
 }
-.container>span{
+.container > span {
   font-size: 5vw;
   font-weight: 900;
 }
-.description{
+.description {
   margin-top: 10px;
   width: 50%;
-  color:rgb(236, 236, 229);
-  font-size:clamp(15px,1vw,30px);
-
+  color: rgb(236, 236, 229);
+  font-size: clamp(15px, 1vw, 30px);
 }
 
 .btn-5 {
@@ -128,7 +123,8 @@ html, body {
 
 .btn-5:hover {
   border: 1px solid;
-  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5),
+    0 0 20px rgba(255, 255, 255, 0.2);
   outline-color: rgba(255, 255, 255, 0);
   outline-offset: 15px;
   text-shadow: 1px 1px 2px #427388;
@@ -136,7 +132,7 @@ html, body {
 
 .btn {
   margin-top: 10px;
-  border: #5EF1CF;
+  border: #5ef1cf;
   border-radius: 10px;
   cursor: pointer;
   font-size: 16px;
@@ -157,8 +153,8 @@ html, body {
   position: absolute;
   right: 50%;
   left: 50%;
-  margin-top: 10%;  
-  width :34px;
+  margin-top: 10%;
+  width: 34px;
   height: 55px;
 }
 .mousey {
@@ -177,36 +173,58 @@ html, body {
   background-color: #fff;
   animation-name: scroll;
   animation-duration: 2.2s;
-  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
   animation-iteration-count: infinite;
 }
 @keyframes scroll {
-  0% { opacity: 0; }
-  10% { transform: translateY(0); opacity: 1; }
-  100% { transform: translateY(15px); opacity: 0;}
+  0% {
+    opacity: 0;
+  }
+  10% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(15px);
+    opacity: 0;
+  }
 }
-.aboutme{
+.aboutme {
   margin-top: 15%;
-  width:50%;
+  width: 50%;
 }
-.aboutme__data{
-  display:flex;
-  flex-direction:row;
+.aboutme__data {
+  display: flex;
+  flex-direction: row;
+  line-height: 1.6;
 }
 
-.aboutme__data>img{
-  width:400px;
-  height:400px;
-  object-fit:contain;
+.aboutme__innerdata{
+  width: 100%;
+  border: 1px solid red;
 }
-.aboutme >h1>span{
-  color: #5EF1CF;
+.aboutme__data > img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin-left: 20%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.aboutme__data > img:hover {
+   transform: scale(1.1);
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
+.aboutme > h1 > span {
+  color: #5ef1cf;
 }
 h1::after {
-    display: inline-block;
-    content: "";
-    border-top: .1rem solid lightgray;
-    width: 25%;
-    transform: translateY(0rem);
+  display: inline-block;
+  content: "";
+  border-top: 0.1rem solid lightgray;
+  width: 25%;
+  transform: translateY(0rem);
 }
 </style>
