@@ -8,7 +8,7 @@
         <div class="description">
           I am Full Stack Softare Developer based in Faridabad,India. I am interested in building mobile apps and websites. I am also interested in open source contribution and teaching thats why I have a youtube channel were I teach how to make applications using Flutter. 
         </div>
-        <button class="btn btn-5">Get In touch</button>
+        <button class="btn btn-outline movie-card__button">Get In touch</button>
    </div>
    
 
@@ -46,7 +46,6 @@
      <div class="education" id="aboutme">
       <h1><span>02.</span> Where I have worked </h1>
       <div class="education__data">
-            
             <div class="work_tab_div">
               <div class="work_tabs_menu">
                 <ul class="work_tabs">
@@ -58,64 +57,111 @@
               </div>
               <div class="work_tab_content">
                 <div id="work_tab1_content">
-                  <h3> Full Stack Software Developer <h2><a href="#">@NovelVox</a></h2> </h3>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, ullam, illum impedit earum minima maiores totam libero ratione tempora ea iusto facilis voluptate neque aspernatur atque soluta non doloremque porro?</p>
+                  <h3> Full Stack Software Developer 
+                    <h3>
+                      <a href="https://www.novelvox.com/" target="_blank">@NovelVox</a>
+                     </h3>
+                  </h3>
+                  <div class="work_tab1_content_timestamp">June 2019 to Present</div>
+                  <ul>
+                    <li>Worked on Integrating whatsapp to a web applicaion to redirect the message from any user to a particular number.</li>
+                    <li>Worked on integrating facebook to a web applicaion.</li>
+                    <li>Worked on Cisco Finesse SSO part which will let user to logout from all the application by one logout.</li>
+                    <li>Worked on Research and Developement part in applicaion.</li>
+                    <li>Worked on writing documents.</li>
+                  </ul>
                 </div>
-                
-                <!-- <div id="work_tab2_content">
-                  <p> Passed Intermediate with 84% from ISC board. </p>
-                </div>
-
-                <div id="work_tab3_content">
-                  <p> Passed High School with 82% from ICSE Board. </p>
-                </div> -->
-
-                
-
-                <!--     closing tab content div -->
               </div>
               <!--     closing tab div -->
             </div>
       </div>   
    </div>
 
-     <div class="education" id="aboutme">
-      <h1><span>03.</span> Educational Background </h1>
-      <div class="education__data">
-            
-            <div class="tab_div">
-              <div class="tabs_menu">
-                <ul class="tabs">
-                  <li id="tab1"> Graduation </li>
-                  <li id="tab2"> Intermediate</li>
-                  <li id="tab3"> High School </li>
-                </ul>
-                <!--     closing tabs menu div -->
-              </div>
-              <div class="tab_content">
-                <div id="tab1_content">
-                  <p> B.Tech in Computer Science </p>
-                  <!--       closes tab 1 content -->
-                </div>
-                
-                <div id="tab2_content">
-                  <p> Passed Intermediate with 84% from ISC board. </p>
-                  <!--       closes tab 2 content -->
-                </div>
+   <div class="work education">
+      <h1><span>03.</span> Some Things I've built </h1>
+  
 
-                <div id="tab3_content">
-                  <p> Passed High School with 82% from ICSE Board. </p>
-                  <!--       closes tab 3 content -->
-                </div>
+<div id="movie-card-list">
+  <div class="movie-card" data-movie="amazonclone">
+    <div class="movie-card__overlay"></div>
+    <!-- <div class="movie-card__share">
+      <button class="movie-card__icon"><i class="material-icons">&#xe87d</i></button>
+      <button class="movie-card__icon"><i class="material-icons">&#xe253</i></button>
+      <button class="movie-card__icon"><i class="material-icons">&#xe80d</i></button>
+    </div> -->
+    <div class="movie-card__content">
+      <div class="movie-card__header">
+        <h1 class="movie-card__title">Amazon Clone</h1>
+        <h4 class="movie-card__info">VueJs E-Commerce App</h4>
+      </div>
+      <p class="movie-card__desc">Amazon Clone is a full fleged VueJs applicaiton with payement gateway integration using Stripe.
+        In order to test use <b>test@test.com and password </b> as login credential.
+      </p>
+      <a href="https://amzonclone.vercel.app/" target="_blank" class="btn btn-outline movie-card__button" type="button">Visit Site</a>
+    </div>
+  </div>
+  <div class="movie-card" data-movie="corona">
+    <div class="movie-card__overlay"></div>
+    
+    <div class="movie-card__content">
+      <div class="movie-card__header">
+        <h1 class="movie-card__title">Corona Tracker App</h1>
+        <h4 class="movie-card__info">ReactJs Applcaion</h4>
+      </div>
+      <p class="movie-card__desc">Corona tracker will give you a visual representation of coran virus spread all over the world with Total affected, total recovered and total active cases.</p>
+      <a href="https://covid19tracker-a45a3.web.app/"  class="btn btn-outline movie-card__button" type="button">Visit Site</a>
+    </div>
+  </div>
 
-                
+    <div class="movie-card" data-movie="onelink">
+    <div class="movie-card__overlay"></div>
+    
+    <div class="movie-card__content">
+      <div class="movie-card__header">
+        <h1 class="movie-card__title">OneLink</h1>
+        <h4 class="movie-card__info">NuxtJs Application</h4>
+      </div>
+      <p class="movie-card__desc">Onlink is a applcation where people can put all there usefull links at one place and can get one link for all link.</p>
+      <a href="https://onlink-ten.vercel.app/"  class="btn btn-outline movie-card__button" type="button">Visit Site</a>
+    </div>
+  </div>
+  <div class="movie-card" data-movie="airbnb">
+    <div class="movie-card__overlay"></div>
+   
+    <div class="movie-card__content">
+      <div class="movie-card__header">
+        <h1 class="movie-card__title">AirBnb Clone App</h1>
+        <h4 class="movie-card__info">ReactJs Applicaion</h4>
+      </div>
+      <p class="movie-card__desc">
+        Airbnb clone app is just the UI dummy of Airbnb site, build with reactjs.
+      </p>
+      <a href="https://airbnb-clone-react-2025.firebaseapp.com/"  class="btn btn-outline movie-card__button" type="button">Visit Site</a>
+    </div>
+  </div>
 
-                <!--     closing tab content div -->
-              </div>
-              <!--     closing tab div -->
-            </div>
-      </div>   
+  <div class="movie-card" data-movie="hulu">
+    <div class="movie-card__overlay"></div>
+   
+    <div class="movie-card__content">
+      <div class="movie-card__header">
+        <h1 class="movie-card__title">Hulu Clone</h1>
+        <h4 class="movie-card__info">ReactJs Applicaion</h4>
+      </div>
+      <p class="movie-card__desc">
+        Hulu is movie site just like Netflix so I have just copied the UI part of the Hulu app.
+      </p>
+      <a href="https://hulu-clone-react-2025.firebaseapp.com/"  class="btn btn-outline movie-card__button" type="button">Visit Site</a>
+    </div>
+  </div>
+<span>Many more to come</span>
+
+</div>
+
+
    </div>
+
+  
 
 
   </div>
@@ -145,67 +191,43 @@ export default {
         $("#work_tab3_content").hide();
         $("#work_tab4_content").hide();
 
-        $("#work_tab1").click(function() {
+
+$("#work_tab1").mouseover(function() {
           $("#work_tab1_content").show();
-          $("#work_tab2_content").hide();
-          $("#work_tab3_content").hide();
-          $("#work_tab4_content").hide();
         });
-
-        $("#work_tab2").click(function() {
-          $("#work_tab2_content").show();
+$("#work_tab1").mouseleave(function() {
           $("#work_tab1_content").hide();
-          $("#work_tab3_content").hide();
-          $("#work_tab4_content").hide();
         });
 
-        $("#work_tab3").click(function() {
-          $("#work_tab3_content").show();
-          $("#work_tab1_content").hide();
-          $("#work_tab2_content").hide();
-          $("#work_tab4_content").hide();
-        });
 
-        $("#work_tab4").click(function() {
-          $("#work_tab4_content").show();
-          $("#work_tab1_content").hide();
-          $("#work_tab2_content").hide();
-          $("#work_tab3_content").hide();
-        });
-// Educational 
+        // $("#work_tab1").hover(function() {
+        //   $("#work_tab1_content").show();
+        //   $("#work_tab2_content").hide();
+        //   $("#work_tab3_content").hide();
+        //   $("#work_tab4_content").hide();
+        // });
 
-        $("#tab1_content").hide();
-        $("#tab2_content").hide();
-        $("#tab3_content").hide();
-        $("#tab4_content").hide();
+        // $("#work_tab2").click(function() {
+        //   $("#work_tab2_content").show();
+        //   $("#work_tab1_content").hide();
+        //   $("#work_tab3_content").hide();
+        //   $("#work_tab4_content").hide();
+        // });
 
-        $("#tab1").click(function() {
-          $("#tab1_content").show();
-          $("#tab2_content").hide();
-          $("#tab3_content").hide();
-          $("#tab4_content").hide();
-        });
+        // $("#work_tab3").click(function() {
+        //   $("#work_tab3_content").show();
+        //   $("#work_tab1_content").hide();
+        //   $("#work_tab2_content").hide();
+        //   $("#work_tab4_content").hide();
+        // });
 
-        $("#tab2").click(function() {
-          $("#tab2_content").show();
-          $("#tab1_content").hide();
-          $("#tab3_content").hide();
-          $("#tab4_content").hide();
-        });
+        // $("#work_tab4").click(function() {
+        //   $("#work_tab4_content").show();
+        //   $("#work_tab1_content").hide();
+        //   $("#work_tab2_content").hide();
+        //   $("#work_tab3_content").hide();
+        // });
 
-        $("#tab3").click(function() {
-          $("#tab3_content").show();
-          $("#tab1_content").hide();
-          $("#tab2_content").hide();
-          $("#tab4_content").hide();
-        });
-
-        $("#tab4").click(function() {
-          $("#tab4_content").show();
-          $("#tab1_content").hide();
-          $("#tab2_content").hide();
-          $("#tab3_content").hide();
-        });
 
 
 
@@ -216,6 +238,8 @@ export default {
 </script>
 
 <style>
+
+
 @import url("https://fonts.googleapis.com/css?family=Varela");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 html,
@@ -275,42 +299,11 @@ body {
   font-size: clamp(15px, 1vw, 30px);
 }
 
-.btn-5 {
-  border: 0 solid;
-  outline-color: rgba(255, 255, 255, 0.5);
-  outline-offset: 0px;
-  text-shadow: none;
-  -webkit-transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
-  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
-}
 
-.btn-5:hover {
-  border: 1px solid;
-  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5),
-    0 0 20px rgba(255, 255, 255, 0.2);
-  outline-color: rgba(255, 255, 255, 0);
-  outline-offset: 15px;
-  text-shadow: 1px 1px 2px #427388;
-}
 
-.btn {
-  margin-top: 10px;
-  border: #5ef1cf;
-  border-radius: 10px;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 45px;
-  max-width: 160px;
-  position: relative;
-  text-decoration: none;
-  text-transform: uppercase;
-  width: 100%;
-}
 
-.btn:hover {
-  text-decoration: none;
-}
+
+
 
 .scroll-downs {
   position: absolute;
@@ -400,111 +393,7 @@ h1::after {
 }
 
 
-@import 'https://fonts.googleapis.com/css?family=Quicksand';
-@media screen and (max-width: 400px) {
-  .tab_div {
-    display: none;
-  }
-}
-
-
-.education__data >.tab_div {
-  width: 100%;
-  transform: translateZ(0);
-}
-
-.tabs_menu {
-  /*   background-color:blue; */
-  padding-top: 1%;
-  width: 20%;
-  float: left;
-}
-
-ul.tabs {
-  padding: 0;
-}
-
-#tab1,
-#tab2,
-#tab3,
-#tab4 {
-  padding-top: 10%;
-  padding-bottom: 20%;
-  padding-left: 5%;
-  padding-right: 5%;
-  width: 100%;
-}
-
-ul.tabs li {
-  list-style-type: none;
-  font-family: Quicksand;
-  border-right: 2px solid white;
-  font-size: 18px;
-  color: white;
-  /*   transition: background-color 0.2s ease; */
-}
-
-
-/* ul.tabs li:hover {
-  border-right: 2px solid #e1386c;
-  background-color: rgba( 255, 155, 180, .9);
-  font-weight: bold;
-} */
-
-#tab1_content,
-#tab2_content,
-#tab3_content,
-#tab4_content {
-  /*   background-color:red; */
-  float: right;
-  width: 70%;
-  height: auto;
-  padding-top: 5%;
-}
-
-p {
-  font-family: Quicksand;
-  font-size: 16px;
-  color: white;
-}
-
-
-/* hover effect */
-
-ul.tabs li {
-  display: inline-block;
-  position: relative;
-  padding: 1em;
-  cursor: pointer;
-  /* background: #17171e; */
-  color: #fff;
-  z-index: 0;
-}
-ul.tabs li:hover {
-
-  color: #000;
-}
-ul.tabs li:before {
-  content: " ";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #5ef1cf;
- transform: scaleX(0);
-  transform-origin: 0 50%;
-  transition: transform .5s ease-out;
-}
-
-ul.tabs li:hover:before {
-  transform: scaleX(1);
-}
-
-
 /* work */
-@import 'https://fonts.googleapis.com/css?family=Quicksand';
 @media screen and (max-width: 400px) {
   .work_tab_div {
     display: none;
@@ -603,4 +492,220 @@ ul.work_tabs li:before {
 ul.work_tabs li:hover:before {
   transform: scaleX(1);
 }
+
+
+/* Work */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800");
+
+
+
+
+* {
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  border: 0;
+  cursor: pointer;
+}
+button:focus {
+  outline: 0;
+}
+
+.movie-card {
+  padding: 2px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  min-height: 300px;
+  display: block;
+  margin: 8vh auto;
+  border-radius: 8px;
+  box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+.movie-card:hover{
+  filter: grayscale(0);
+    transform: scale(1.1);
+
+}
+@media screen and (max-width: 800px) {
+  .movie-card {
+    width: 95%;
+    max-width: 95%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .movie-card {
+    background-position: 50% 0%;
+    background-size: cover;
+    height: 400px;
+  }
+}
+.movie-card[data-movie="amazonclone"] {
+  background-image: url("../assets/image/amazonclone.png");
+}
+.movie-card[data-movie="corona"] {
+  background-image: url("../assets/image/coronatracker.png");
+}
+.movie-card[data-movie="onelink"] {
+  background-image: url("../assets/image/onelink.png");
+}
+.movie-card[data-movie="airbnb"] {
+  background-image: url("../assets/image/airbnbclone.png");
+}
+.movie-card[data-movie="hulu"] {
+  background-image: url("../assets/image/huluclone.png");
+}
+.movie-card__overlay {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(42, 159, 255, 0.2)), color-stop(60%, #212120), to(#212120));
+  background: linear-gradient(to right, rgba(42, 159, 255, 0.2) 0%, #212120 60%, #212120 100%);
+  background-blend-mode: multiply;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+@media screen and (max-width: 600px) {
+  .movie-card__overlay {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(42, 159, 255, 0.2)), color-stop(60%, #212120), to(#212120));
+    background: linear-gradient(to bottom, rgba(42, 159, 255, 0.2) 0%, #212120 60%, #212120 100%);
+  }
+}
+.movie-card__share {
+  padding: 1em;
+  display: inline-block;
+  width: 100%;
+  max-width: 130px;
+}
+@media screen and (max-width: 600px) {
+  .movie-card__share {
+    display: block;
+    width: 100%;
+  }
+}
+.movie-card__icon {
+  color: #ffffff;
+  mix-blend-mode: lighten;
+  opacity: .4;
+  background: none;
+  padding: 0;
+}
+.movie-card__icon:hover {
+  opacity: 1;
+  mix-blend-mode: lighten;
+}
+.movie-card__icon:not(:first-of-type) {
+  margin-left: 5px;
+}
+.movie-card__icon i {
+  font-size: 1.2em;
+}
+.movie-card__content {
+  width: 100%;
+  max-width: 370px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  position: relative;
+  float: right;
+  padding-right: 1.2em;
+  padding-bottom: 1em;
+}
+@media screen and (max-width: 1000px) {
+  .movie-card__content {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .movie-card__content {
+    margin-top: 4.2em;
+    width: 100%;
+    float: inherit;
+    max-width: 100%;
+    padding: 0 1em 1em;
+  }
+}
+.movie-card__header {
+  margin-bottom: 2em;
+}
+.movie-card__title {
+  color: #ffffff;
+  margin-bottom: .25em;
+  opacity: .75;
+}
+.movie-card__info {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: .8em;
+  color: #2a9fff;
+  line-height: 1;
+  margin: 0;
+  font-weight: 700;
+  opacity: .5;
+}
+.movie-card__desc {
+  font-weight: 300;
+  opacity: .84;
+  margin-bottom: 2em;
+  overflow: hidden;
+display: -webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+}
+.movie-card__desc:hover{
+  display: block;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat", helvetica, arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.btn {
+    border-radius: 10px;
+
+  padding: .5rem 2rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: white;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 3px solid #ffffff;
+}
+
+.btn::before {
+  font-family: 'Material Icons';
+  vertical-align: middle;
+  font-size: 1.5em;
+  padding-right: .5em;
+}
+
+.btn-outline:hover {
+  border-color: #2a9fff;
+  color: #2a9fff;
+  box-shadow: 0px 1px 8px 0px rgba(245, 199, 0, 0.2);
+}
+
 </style>
