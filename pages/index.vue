@@ -97,7 +97,14 @@
       <p class="movie-card__desc">Amazon Clone is a full fleged VueJs applicaiton with payement gateway integration using Stripe.
         In order to test use <b>test@test.com and password </b> as login credential.
       </p>
-      <a href="https://amzonclone.vercel.app/" target="_blank" class="btn btn-outline movie-card__button" type="button">Visit Site</a>
+      <div class="buttonflex">
+            <a href="https://amzonclone.vercel.app/" target="_blank" class="btn btn-outline movie-card__button" type="button">Visit Site</a>
+
+      <a href="https://github.com/akarshbarar/amzonclone" target="_blank" class="btn btn-outline movie-card__button" type="button">Github</a>
+      </div>
+    
+
+
     </div>
   </div>
   <div class="movie-card" data-movie="corona">
@@ -109,7 +116,14 @@
         <h4 class="movie-card__info">ReactJs Applcaion</h4>
       </div>
       <p class="movie-card__desc">Corona tracker will give you a visual representation of coran virus spread all over the world with Total affected, total recovered and total active cases.</p>
-      <a href="https://covid19tracker-a45a3.web.app/"  class="btn btn-outline movie-card__button" type="button">Visit Site</a>
+
+      <div class="buttonflex">
+           <a href="https://covid19tracker-a45a3.web.app/"  target="_blank" class="btn btn-outline movie-card__button" type="button">Visit Site</a>
+
+       <a href="https://github.com/akarshbarar/Covid19Tracker_Reactjs" target="_blank" class="btn btn-outline movie-card__button" type="button">Github</a>
+      </div>
+     
+
     </div>
   </div>
 
@@ -122,7 +136,12 @@
         <h4 class="movie-card__info">NuxtJs Application</h4>
       </div>
       <p class="movie-card__desc">Onlink is a applcation where people can put all there usefull links at one place and can get one link for all link.</p>
-      <a href="https://onlink-ten.vercel.app/"  class="btn btn-outline movie-card__button" type="button">Visit Site</a>
+      <div class="buttonflex">
+            <a href="https://onlink-ten.vercel.app/"  target="_blank" class="btn btn-outline movie-card__button" type="button">Visit Site</a>
+
+       <a href="https://github.com/akarshbarar/OneLink" target="_blank" class="btn btn-outline movie-card__button" type="button">Github</a>
+      </div>
+    
     </div>
   </div>
   <div class="movie-card" data-movie="airbnb">
@@ -136,7 +155,14 @@
       <p class="movie-card__desc">
         Airbnb clone app is just the UI dummy of Airbnb site, build with reactjs.
       </p>
-      <a href="https://airbnb-clone-react-2025.firebaseapp.com/"  class="btn btn-outline movie-card__button" type="button">Visit Site</a>
+
+     <div class="buttonflex">
+
+      <a href="https://airbnb-clone-react-2025.firebaseapp.com/"  target="_blank" class="btn btn-outline movie-card__button" type="button">Visit Site</a>
+      
+        <a href="https://github.com/akarshbarar/airbnb-clone-react-ui" target="_blank" class="btn btn-outline movie-card__button" type="button">Github</a>
+      </div>
+
     </div>
   </div>
 
@@ -151,7 +177,11 @@
       <p class="movie-card__desc">
         Hulu is movie site just like Netflix so I have just copied the UI part of the Hulu app.
       </p>
-      <a href="https://hulu-clone-react-2025.firebaseapp.com/"  class="btn btn-outline movie-card__button" type="button">Visit Site</a>
+      <div class="buttonflex">
+      <a href="https://hulu-clone-react-2025.firebaseapp.com/" target="_blank" class="btn btn-outline movie-card__button" type="button">Visit Site</a>
+
+      <a href="https://github.com/akarshbarar/hulu-clone-ui-react" target="_blank" class="btn btn-outline movie-card__button" type="button">Github</a>
+      </div>
     </div>
   </div>
 <span>Many more to come</span>
