@@ -4,9 +4,11 @@
           <nav>
               <nuxt-link to="/"><img src="../assets/image/logo2.png"/></nuxt-link>
               <ul>
-                  <li><nuxt-link to="/">Blogs</nuxt-link></li>
-                  <li><nuxt-link to="/">Projects</nuxt-link></li>
-                  <li><nuxt-link to="/">Contact Me</nuxt-link></li>
+                  <li><nuxt-link to="/blogs">Blogs</nuxt-link></li>
+                  <li><nuxt-link to="#projects">Projects</nuxt-link></li>
+                  <li><nuxt-link to="#contactme">Contact Me</nuxt-link></li>
+                  <li> <a href="/resume.pdf" download> Resume</a></li>
+                  
               </ul>
           </nav>
       </header>
@@ -41,7 +43,7 @@ nav{
     text-decoration: none;
     color: white;
     align-items: center;
-    margin: 0 10px;
+    /* margin: 0 10px; */
     font-size: larger;
 }
 

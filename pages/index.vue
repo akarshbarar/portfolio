@@ -8,16 +8,13 @@
         <div class="description">
           I am Full Stack Softare Developer based in Faridabad,India. I am interested in building mobile apps and websites. I am also interested in open source contribution and teaching thats why I have a youtube channel were I teach how to make applications using Flutter. 
         </div>
-        <button class="btn btn-outline movie-card__button">Get In touch</button>
+        <div class="getintouch">
+           <a href="mailto:barar.akarsh8@gmail.com" class="btn btn-outline movie-card__button" >Get In touch</a>
+
+        </div>
    </div>
    
-
-    <!-- <div class="scroll-downs">
-      <div class="mousey">
-        <div class="scroller"></div>
-      </div>
-    </div> -->
-    <div class="aboutme" id="aboutme">
+  <div class="aboutme" id="aboutme">
       <h1><span>01.</span> About Me </h1>
       <div class="aboutme__data">
             <div class="aboutme__innerdata">
@@ -43,7 +40,7 @@
    </div>
 
 
-     <div class="education" id="aboutme">
+  <div class="education" id="aboutme">
       <h1><span>02.</span> Where I have worked </h1>
       <div class="education__data">
             <div class="work_tab_div">
@@ -77,7 +74,7 @@
       </div>   
    </div>
 
-   <div class="work education">
+   <div class="work education" id="projects">
       <h1><span>03.</span> Some Things I've built </h1>
   
 
@@ -184,12 +181,31 @@
       </div>
     </div>
   </div>
-<span>Many more to come</span>
+  <div class="manymoretocome">
+      <h2>Many More to come....</h2>
+  </div>
+
 
 </div>
 
 
    </div>
+
+  <div class="education whatsnext" id="contactme">
+          <h1><span>04.</span> Whats Next </h1>
+          <div class="whatsnext__content education__data">
+            I am always open to work and new opportunities in order to grow. If you have any questions or anything my inbox is always open and I will try to answer and get back to you as soon as possible.
+          </div>
+          <div class="getintouch">
+              <a href="mailto:barar.akarsh8@gmail.com" class="whatsnext__button btn btn-outline movie-card__button" type="button" >Say Hello</a>
+          </div>
+          
+
+  </div>
+  <div class="education">
+  <Footer/>
+
+  </div>
 
   
 
@@ -199,19 +215,23 @@
 
 <script>
 import $ from 'jquery';
+import Footer from "../components/Footer"
 
 export default {
+  
   head: {
     title: "Akarsh Barar | Developer",
     link: [
-      {
-        // rel:"stylesheet",
-        // href:"https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css",
-        // integrity:"sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2",
-        // crossorigin:"anonymous"
-        //  href:"https://www.w3schools.com/w3css/4/w3.css"
-      },
+      {},
     ],
+  },
+  components:{
+    Footer
+  },
+  methods:{
+      sayHello:function(){
+
+      }
   },
   mounted(){
 
@@ -222,49 +242,12 @@ export default {
         $("#work_tab4_content").hide();
 
 
-$("#work_tab1").mouseover(function() {
+$("#work_tab1").click(function() {
           $("#work_tab1_content").show();
         });
-$("#work_tab1").mouseleave(function() {
-          $("#work_tab1_content").hide();
-        });
-
-
-        // $("#work_tab1").hover(function() {
-        //   $("#work_tab1_content").show();
-        //   $("#work_tab2_content").hide();
-        //   $("#work_tab3_content").hide();
-        //   $("#work_tab4_content").hide();
-        // });
-
-        // $("#work_tab2").click(function() {
-        //   $("#work_tab2_content").show();
-        //   $("#work_tab1_content").hide();
-        //   $("#work_tab3_content").hide();
-        //   $("#work_tab4_content").hide();
-        // });
-
-        // $("#work_tab3").click(function() {
-        //   $("#work_tab3_content").show();
-        //   $("#work_tab1_content").hide();
-        //   $("#work_tab2_content").hide();
-        //   $("#work_tab4_content").hide();
-        // });
-
-        // $("#work_tab4").click(function() {
-        //   $("#work_tab4_content").show();
-        //   $("#work_tab1_content").hide();
-        //   $("#work_tab2_content").hide();
-        //   $("#work_tab3_content").hide();
-        // });
-
-
-
-
       
   }
 };
-// https://codepen.io/vikassingh1111/pen/xBPmbL
 </script>
 
 <style>
@@ -287,8 +270,8 @@ body {
 }
 .container > p {
   color: #5ef1cf;
-  font-size: 2vw;
-  font-weight: 500;
+  font-size: clamp(30px,2vw,2vw);
+  font-weight: 900;
 }
 /* .part__first{
     height:80vh;
@@ -329,52 +312,6 @@ body {
   font-size: clamp(15px, 1vw, 30px);
 }
 
-
-
-
-
-
-
-.scroll-downs {
-  position: absolute;
-  right: 50%;
-  left: 50%;
-  margin-top: 10%;
-  width: 34px;
-  height: 55px;
-}
-.mousey {
-  width: 3px;
-  padding: 10px 15px;
-  height: 35px;
-  border: 2px solid #fff;
-  border-radius: 25px;
-  opacity: 0.75;
-  box-sizing: content-box;
-}
-.scroller {
-  width: 3px;
-  height: 10px;
-  border-radius: 25%;
-  background-color: #fff;
-  animation-name: scroll;
-  animation-duration: 2.2s;
-  animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
-  animation-iteration-count: infinite;
-}
-@keyframes scroll {
-  0% {
-    opacity: 0;
-  }
-  10% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(15px);
-    opacity: 0;
-  }
-}
 .aboutme,.education {
   margin-top: 15%;
   width: 80%;
@@ -388,6 +325,9 @@ body {
 
 .aboutme__innerdata {
   width: 150%;
+}
+.aboutme__innerdata >p {
+  font-size: clamp(15px, 1vw, 30px);
 }
 .aboutme__innerdata > ul {
   display: grid;
@@ -414,13 +354,7 @@ body {
 .education > h1 > span {
   color: #5ef1cf;
 }
-h1::after {
-  display: inline-block;
-  content: "";
-  border-top: 0.1rem solid lightgray;
-  width: 25%;
-  transform: translateY(0rem);
-}
+
 
 
 /* work */
@@ -456,6 +390,7 @@ ul.work_tabs {
   padding-left: 5%;
   padding-right: 5%;
   width: 100%;
+
 }
 
 ul.work_tabs li {
@@ -483,6 +418,7 @@ ul.work_tabs li {
   width: 70%;
   height: auto;
   padding-top: 5%;
+  
 }
 
 p {
@@ -537,12 +473,14 @@ ul.work_tabs li:hover:before {
 
 a {
   text-decoration: none;
+  
 }
 
 button {
   font-family: inherit;
   border: 0;
   cursor: pointer;
+  margin-top: 5px;
 }
 button:focus {
   outline: 0;
@@ -737,5 +675,51 @@ h1, h2, h3 {
   color: #2a9fff;
   box-shadow: 0px 1px 8px 0px rgba(245, 199, 0, 0.2);
 }
+/* manymoretocome */
 
+.manymoretocome{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+/* Whats next */
+.whatsnext{
+  display: flex;
+  flex-direction: column;
+}
+.whatsnext__content{
+  text-align: center;
+    font-size: clamp(15px, 1vw, 30px);
+
+}
+.whatsnext__button{
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 950px) {
+  .buttonflex{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 900px) {
+  .aboutme__data {
+   flex-direction: column-reverse;
+  }
+  .aboutme__innerdata {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+ 
+}
+.getintouch{
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
 </style>

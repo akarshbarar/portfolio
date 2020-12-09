@@ -14,11 +14,13 @@
 import Navbar from "../components/Navbar"
 import LeftSidebar from "../components/LeftSideBar"
 import RightSidebar from "../components/RightSideBar"
+
 export default {
   components:{
     Navbar,
     LeftSidebar,
     RightSidebar,
+    
   }  
 }
 </script>

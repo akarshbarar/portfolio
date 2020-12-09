@@ -30,4 +30,10 @@ export default {
 .sidebar__right > a:hover{
     color: #5EF1CF;
 }
+@media screen and (max-width: 950px) {
+  .sidebar__right{
+    display: none;
+    visibility: hidden;
+  }
+}
 </style>
